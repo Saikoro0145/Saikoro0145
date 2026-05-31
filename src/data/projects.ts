@@ -11,7 +11,7 @@ export const projects: Project[] = [
     period: '2025/04 ~ 2026/02',
     description: '5人チームで制作した探索型2Dアドベンチャーゲーム。',
     role: 'コーディング',
-    tech: ['Unity', 'C#', 'Git', 'GitHub'],
+    tech: ['Unity', 'C#', 'Git', 'GitHub', 'LitMotion'],
     thumbnail: relayShiftThumbnail,
     github: {
       label: 'ソースコード',
