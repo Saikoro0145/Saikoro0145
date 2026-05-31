@@ -211,18 +211,16 @@ h3 {
   padding-bottom: 104px;
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
-  gap: 32px;
-  align-items: start;
-}
-
 .about-text {
+  max-width: 760px;
   padding: 28px;
   border-left: 3px solid var(--amber);
   background: rgba(255, 255, 255, 0.72);
   box-shadow: 0 14px 44px rgba(45, 42, 72, 0.08);
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
 }
 
 .skill-brief-list {
@@ -551,7 +549,6 @@ dd {
     border-radius: 18px;
   }
 
-  .about-grid,
   .project-modal {
     grid-template-columns: 1fr;
   }
