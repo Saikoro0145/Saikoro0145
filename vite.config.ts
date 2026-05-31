@@ -7,9 +7,9 @@ declare const process: {
   };
 };
 
-// GitHub Pages のプロジェクトページでは "/リポジトリ名/" を指定します。
-// ユーザーサイト yghay.github.io で公開する場合は "/" に変更してください。
-const base = process.env.VITE_BASE_PATH ?? '/Saikoro0145/';
+// Use relative asset paths so the site works on GitHub Pages project pages,
+// user pages, and custom domains without changing the repository name here.
+const base = process.env.VITE_BASE_PATH ?? './';
 
 export default defineConfig({
   base,
