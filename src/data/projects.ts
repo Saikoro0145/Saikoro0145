@@ -15,7 +15,7 @@ export const projects: Project[] = [
     thumbnail: relayShiftThumbnail,
     github: {
       label: 'ソースコード',
-      url: 'https://github.com',
+      url: 'https://github.com/Saikoro0145/Portfolio/tree/main/RelayShift',
     },
     movie: {
       label: 'プレイ動画',
